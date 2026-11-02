@@ -1,0 +1,39 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+*.p12
+*.pfx
+.wrangler/
+**/.wrangler/
+**/wrangler.json
+**/wrangler.jsonc
+**/wrangler.toml
+*.plist
+# Runtime and machine files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+runtime/
+*.log
+node_modules/
+# Private source material and deployment artifacts
+reference/originals/
+deploy/rollback/
+deploy/dist/
+media/
+*.mp4
+# Regenerable authoring outputs and unpacked bundles
+authoring/inputs/
+authoring/editable/
+authoring/evaluation/
+authoring/manifest.json
+authoring/index.html
+authoring/*.pdf
+bundles/C*/

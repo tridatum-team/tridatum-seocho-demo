@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>문서 검토 | TRIDATUM v0.8</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><b>TRIDATUM</b><span>업무 검토</span></div>
+  <div class="header-title">반품 · 교환 문서 검토 <small>시연용 v0.8</small></div>
+  <div id="system" class="system">실행 환경 확인 중</div>
+</header>
+<main class="review-page">
+    <nav class="breadcrumb" aria-label="페이지 경로"><a href="/">접수 목록</a><span>/</span><span>접수 상세</span></nav>
+    <section class="heading"><div><div class="eyebrow" id="caseid">접수번호</div><h1 id="casetitle">문서 검토</h1><p id="casesub"></p></div><a class="back-link" href="/">목록으로 돌아가기</a></section>
+    <div class="workflow" aria-label="검토 순서"><span class="step active">1. 문서 확인</span><span class="step" id="step2">2. 추출 · 규정 대조</span><span class="step" id="step3">3. 회신 · 담당자 검토</span></div>
+    <section class="toolbar"><label>입력 방식 <select id="mode"><option value="clean">원본 PDF · 텍스트 추출</option><option value="scan">스캔 PDF · 실제 OCR</option></select></label><span class="method">서식 기반 추출 / 규칙 대조 / 로컬 모델 회신</span><button id="run" class="primary" disabled>문서 추출 · 대조 실행</button></section>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <details id="bundle" class="bundle">
+      <summary id="bundlesummary">접수 파일 묶음</summary>
+      <div id="bundlecontent"></div>
+    </details>
+    <div class="workspace">
+      <section class="panel source-panel" aria-label="제출 문서">
+        <div class="panel-head"><h2>제출 문서 <span id="doccount"></span></h2><a id="pdf" target="_blank" rel="noopener">PDF 열기 ↗</a></div>
+        <div id="doclist" class="doclist"></div>
+        <div class="viewerbar"><span id="doctitle"></span><button id="texttoggle" class="quiet small">추출 텍스트</button></div>
+        <div id="imageviewer" class="imageviewer"><div class="page"><img id="pageimg" alt="선택 문서 원문"><div id="highlights"></div></div></div>
+        <pre id="ocrtext" hidden></pre>
+        <div class="source-footer"><span id="sourceinfo">원문 확인 · 1페이지</span><span>원문 근거 조회</span></div>
+      </section>
+      <section class="panel review-panel" aria-label="담당자 검토">
+        <nav class="tabs" aria-label="검토 메뉴"><button class="active" data-tab="checks">검토 결과</button><button data-tab="fields">추출값 · 보정</button><button data-tab="draft">회신 · 검토 의견</button></nav>
+        <div id="checks" class="tabcontent"><div class="empty"><h2>검토 대기</h2><p>문서 추출 · 대조 실행 후 결과가 표시됩니다.</p></div></div>
+        <div id="fields" class="tabcontent" hidden></div>
+        <div id="draft" class="tabcontent" hidden></div>
+      </section>
+    </div>
+    <footer><span>문서·규정·거래 데이터: 데모용 합성 자료</span><span id="footstatus">검토 결과는 최종 승인·반려를 대신하지 않습니다.</span></footer>
+  </main>
+<dialog id="csvdialog"><div class="panel-head"><h2>거래 원장 · CSV 조회</h2><button id="closecsv" class="quiet">닫기</button></div><div id="csvcontent"></div></dialog>
+<script src="/app.js"></script>
+</body>
+</html>

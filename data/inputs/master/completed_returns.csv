@@ -1,0 +1,2 @@
+﻿return_id,shipment_id,part,qty,unit,completed_date,status
+SYN-RET-C03-PRE,SYN-OUT-C03-01,SYN-AF-310,4,EA,2026-10-14,완료

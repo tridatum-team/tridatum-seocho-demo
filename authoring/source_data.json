@@ -1,0 +1,24 @@
+{
+  "notice": "데모용 합성 문서 · 실제 HL홀딩스 거래·서식·규정과 무관",
+  "supplier": "데모 모빌리티유통 (가상)",
+  "parts": [
+    {"id":"SYN-BP-410A","name":"전륜 브레이크 패드 세트","unit":"SET","price":48000},
+    {"id":"SYN-BP-410B","name":"후륜 브레이크 패드 세트","unit":"SET","price":39000},
+    {"id":"SYN-OF-220","name":"엔진 오일 필터","unit":"EA","price":12000},
+    {"id":"SYN-AF-310","name":"엔진 에어 필터","unit":"EA","price":18000},
+    {"id":"SYN-WB-600","name":"와이퍼 블레이드 600mm","unit":"EA","price":15000},
+    {"id":"SYN-SP-180","name":"점화 플러그","unit":"EA","price":9000}
+  ],
+  "policies": [
+    {"id":"SYN-R1","from":"2026-01-01","to":"2026-09-30","days":30},
+    {"id":"SYN-R2","from":"2026-10-01","to":"2026-12-31","days":14}
+  ],
+  "cases": [
+    {"id":"C01","kind":"정상","customer":"데모 서초정비 (가상)","date":"2026-10-20","ship_date":"2026-09-30","part":"SYN-OF-220","qty":2,"shipments":[8],"returned":0,"reason":"미사용 재고 반품","label":"SYN-OF-220","received":2,"vendor_qty":2,"evidence":"포장 미개봉 확인 기록","body":"9월 말 입고한 오일 필터 중 미사용 재고 2개를 반품 요청합니다. 포장 미개봉 상태이며 거래명세서와 검수 기록을 첨부합니다. 이번 접수에 적용할 기준을 확인 부탁드립니다."},
+    {"id":"C02","kind":"오출고","customer":"데모 양재서비스 (가상)","date":"2026-10-15","ship_date":"2026-10-10","part":"SYN-BP-410A","qty":2,"shipments":[6],"returned":0,"reason":"주문 품번과 수령 라벨 불일치","label":"SYN-BP-410B","received":2,"vendor_qty":null,"evidence":"제품 라벨 이미지","body":"전륜 패드를 주문했는데 수령 포장에는 후륜으로 표시돼 있습니다. 거래명세서 품번과 상자 라벨이 다릅니다. 해당 2세트는 사용하지 않았으며 교환을 요청합니다. 출고 내역과 첨부 라벨을 함께 확인해 주세요."},
+    {"id":"C03","kind":"수량 초과","customer":"데모 서초정비 (가상)","date":"2026-10-20","ship_date":"2026-10-08","part":"SYN-AF-310","qty":8,"shipments":[6,4],"returned":4,"reason":"미사용 재고 반품","label":"SYN-AF-310","received":6,"vendor_qty":null,"evidence":"회수 수량 검수 기록","body":"두 차례 나누어 받은 에어 필터의 잔여 재고 8개를 반품 신청합니다. 앞서 처리한 반품 건과 중복되는지 확인 부탁드립니다. 이번 회수품은 창고에서 별도로 계수했습니다."},
+    {"id":"C04","kind":"증빙 부족","customer":"데모 반포오토 (가상)","date":"2026-10-18","ship_date":"2026-10-12","part":"SYN-WB-600","qty":1,"shipments":[8],"returned":0,"reason":"운송 중 파손 주장","label":null,"received":null,"vendor_qty":null,"evidence":"거래명세서만 제출","body":"와이퍼 1개의 케이스와 연결부가 손상된 것으로 보여 교환 요청합니다. 거래명세서를 먼저 보내며 파손 사진은 아직 촬영하지 못했습니다. 제품은 고객사에 보관 중으로 회수되지 않았습니다."},
+    {"id":"C05","kind":"판정 충돌","customer":"데모 양재서비스 (가상)","date":"2026-10-19","ship_date":"2026-10-11","part":"SYN-SP-180","qty":4,"shipments":[12],"returned":0,"reason":"제품 이상 주장","label":"SYN-SP-180","received":4,"vendor_qty":2,"evidence":"입고 외관 검수 및 매입처 회신","body":"점화 플러그 4개의 이상을 주장하며 회수한 전량에 대한 대체를 요청합니다. 매입처에서는 2개만 인정한다고 회신했으나 나머지 2개도 재검토 요청합니다. 원인과 책임은 아직 합의되지 않았습니다."},
+    {"id":"C06","kind":"판독 불확실","customer":"데모 반포오토 (가상)","date":"2026-10-21","ship_date":"2026-10-15","part":"SYN-BP-410A","qty":1,"shipments":[4],"returned":0,"reason":"수령 품번 확인 요청","label":"SYN-BP-410?","received":null,"vendor_qty":null,"evidence":"끝자리 훼손 라벨 이미지","body":"수령한 패드 1세트의 라벨 끝자리가 훼손돼 주문 제품이 맞는지 확인이 어렵습니다. 명세서에는 주문 품번이 있으나 실물 라벨은 읽히지 않습니다. 주문 품번으로 실물 품번을 추정하지 말고 확인 방법을 안내해 주세요."}
+  ]
+}

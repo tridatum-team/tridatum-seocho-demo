@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>접수 목록 | TRIDATUM v0.8</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><div class="brand"><b>TRIDATUM</b><span>업무 검토</span></div><div class="header-title">반품 · 교환 접수 <small>시연용 v0.8</small></div><div id="system" class="system">실행 환경 확인 중</div></header>
+<main class="inbox-page">
+  <section class="heading"><div><div class="eyebrow">반품 · 교환</div><h1>접수 목록</h1><p>검토할 접수 건을 선택하세요. 해당 건의 문서와 검토 화면으로 이동합니다.</p></div><span id="casecount" class="list-count"></span></section>
+  <p id="notice" role="status" aria-live="polite">접수 목록을 불러오는 중입니다.</p>
+  <div class="inbox-table-wrap"><table class="inbox-table" aria-label="접수 목록"><thead><tr><th scope="col">접수번호</th><th scope="col">거래처</th><th scope="col">요청 내용</th><th scope="col">제출 문서</th><th scope="col">이번 방문 검토 상태</th><th scope="col">열기</th></tr></thead><tbody id="cases"></tbody></table></div>
+  <section class="inbox-note"><h2>시연 자료 안내</h2><p>6개 접수 건과 27종 합성 문서를 사용합니다. HL 공개 업무정보와 기관 공개 서식의 항목 구조를 참고했으며, 실제 기업의 거래·내부 서식·규정이 아닙니다.</p><p>검토 상태는 문서 대조 결과입니다. 최종 승인·반려·고객 발송을 수행하지 않습니다. 접수별 파일 묶음과 출처는 상세 화면에서 확인할 수 있습니다.</p></section>
+  <footer><span>TRIDATUM · IR 시연 v0.8</span><span id="storage-note"></span></footer>
+</main><script src="/inbox.js"></script>
+</body></html>

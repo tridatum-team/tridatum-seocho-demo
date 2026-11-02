@@ -1,0 +1,326 @@
+[
+  {
+    "id": "SYN-R1",
+    "case_id": null,
+    "title": "데모 반품·클레임 처리 기준",
+    "clean": "inputs/clean/SYN-R1.pdf",
+    "scan": "inputs/scanned/SYN-R1.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/SYN-R1_p01.png"
+    ],
+    "editable": "editable/SYN-R1.html"
+  },
+  {
+    "id": "SYN-R2",
+    "case_id": null,
+    "title": "데모 반품·클레임 처리 기준",
+    "clean": "inputs/clean/SYN-R2.pdf",
+    "scan": "inputs/scanned/SYN-R2.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/SYN-R2_p01.png"
+    ],
+    "editable": "editable/SYN-R2.html"
+  },
+  {
+    "id": "C01-INV-01",
+    "case_id": "C01",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C01-INV-01.pdf",
+    "scan": "inputs/scanned/C01-INV-01.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C01-INV-01_p01.png"
+    ],
+    "editable": "editable/C01-INV-01.html"
+  },
+  {
+    "id": "C01-LBL",
+    "case_id": "C01",
+    "title": "수령 제품 라벨 기록",
+    "clean": "inputs/clean/C01-LBL.pdf",
+    "scan": "inputs/scanned/C01-LBL.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C01-LBL_p01.png"
+    ],
+    "editable": "editable/C01-LBL.html"
+  },
+  {
+    "id": "C01-INS",
+    "case_id": "C01",
+    "title": "반품 입고·검수 기록",
+    "clean": "inputs/clean/C01-INS.pdf",
+    "scan": "inputs/scanned/C01-INS.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C01-INS_p01.png"
+    ],
+    "editable": "editable/C01-INS.html"
+  },
+  {
+    "id": "C01-VND",
+    "case_id": "C01",
+    "title": "매입처 검토 회신",
+    "clean": "inputs/clean/C01-VND.pdf",
+    "scan": "inputs/scanned/C01-VND.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C01-VND_p01.png"
+    ],
+    "editable": "editable/C01-VND.html"
+  },
+  {
+    "id": "C01-REQ",
+    "case_id": "C01",
+    "title": "고객 클레임 접수 메일",
+    "clean": "inputs/clean/C01-REQ.pdf",
+    "scan": "inputs/scanned/C01-REQ.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C01-REQ_p01.png"
+    ],
+    "editable": "editable/C01-REQ.html"
+  },
+  {
+    "id": "C02-INV-01",
+    "case_id": "C02",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C02-INV-01.pdf",
+    "scan": "inputs/scanned/C02-INV-01.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C02-INV-01_p01.png"
+    ],
+    "editable": "editable/C02-INV-01.html"
+  },
+  {
+    "id": "C02-LBL",
+    "case_id": "C02",
+    "title": "수령 제품 라벨 기록",
+    "clean": "inputs/clean/C02-LBL.pdf",
+    "scan": "inputs/scanned/C02-LBL.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C02-LBL_p01.png"
+    ],
+    "editable": "editable/C02-LBL.html"
+  },
+  {
+    "id": "C02-INS",
+    "case_id": "C02",
+    "title": "반품 입고·검수 기록",
+    "clean": "inputs/clean/C02-INS.pdf",
+    "scan": "inputs/scanned/C02-INS.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C02-INS_p01.png"
+    ],
+    "editable": "editable/C02-INS.html"
+  },
+  {
+    "id": "C02-REQ",
+    "case_id": "C02",
+    "title": "고객 클레임 접수 메일",
+    "clean": "inputs/clean/C02-REQ.pdf",
+    "scan": "inputs/scanned/C02-REQ.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C02-REQ_p01.png"
+    ],
+    "editable": "editable/C02-REQ.html"
+  },
+  {
+    "id": "C03-INV-01",
+    "case_id": "C03",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C03-INV-01.pdf",
+    "scan": "inputs/scanned/C03-INV-01.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C03-INV-01_p01.png"
+    ],
+    "editable": "editable/C03-INV-01.html"
+  },
+  {
+    "id": "C03-INV-02",
+    "case_id": "C03",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C03-INV-02.pdf",
+    "scan": "inputs/scanned/C03-INV-02.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C03-INV-02_p01.png"
+    ],
+    "editable": "editable/C03-INV-02.html"
+  },
+  {
+    "id": "C03-PRE",
+    "case_id": "C03",
+    "title": "기처리 반품 완료 내역",
+    "clean": "inputs/clean/C03-PRE.pdf",
+    "scan": "inputs/scanned/C03-PRE.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C03-PRE_p01.png"
+    ],
+    "editable": "editable/C03-PRE.html"
+  },
+  {
+    "id": "C03-LBL",
+    "case_id": "C03",
+    "title": "수령 제품 라벨 기록",
+    "clean": "inputs/clean/C03-LBL.pdf",
+    "scan": "inputs/scanned/C03-LBL.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C03-LBL_p01.png"
+    ],
+    "editable": "editable/C03-LBL.html"
+  },
+  {
+    "id": "C03-INS",
+    "case_id": "C03",
+    "title": "반품 입고·검수 기록",
+    "clean": "inputs/clean/C03-INS.pdf",
+    "scan": "inputs/scanned/C03-INS.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C03-INS_p01.png"
+    ],
+    "editable": "editable/C03-INS.html"
+  },
+  {
+    "id": "C03-REQ",
+    "case_id": "C03",
+    "title": "고객 클레임 접수 메일",
+    "clean": "inputs/clean/C03-REQ.pdf",
+    "scan": "inputs/scanned/C03-REQ.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C03-REQ_p01.png"
+    ],
+    "editable": "editable/C03-REQ.html"
+  },
+  {
+    "id": "C04-INV-01",
+    "case_id": "C04",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C04-INV-01.pdf",
+    "scan": "inputs/scanned/C04-INV-01.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C04-INV-01_p01.png"
+    ],
+    "editable": "editable/C04-INV-01.html"
+  },
+  {
+    "id": "C04-REQ",
+    "case_id": "C04",
+    "title": "고객 클레임 접수 메일",
+    "clean": "inputs/clean/C04-REQ.pdf",
+    "scan": "inputs/scanned/C04-REQ.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C04-REQ_p01.png"
+    ],
+    "editable": "editable/C04-REQ.html"
+  },
+  {
+    "id": "C05-INV-01",
+    "case_id": "C05",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C05-INV-01.pdf",
+    "scan": "inputs/scanned/C05-INV-01.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C05-INV-01_p01.png"
+    ],
+    "editable": "editable/C05-INV-01.html"
+  },
+  {
+    "id": "C05-LBL",
+    "case_id": "C05",
+    "title": "수령 제품 라벨 기록",
+    "clean": "inputs/clean/C05-LBL.pdf",
+    "scan": "inputs/scanned/C05-LBL.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C05-LBL_p01.png"
+    ],
+    "editable": "editable/C05-LBL.html"
+  },
+  {
+    "id": "C05-INS",
+    "case_id": "C05",
+    "title": "반품 입고·검수 기록",
+    "clean": "inputs/clean/C05-INS.pdf",
+    "scan": "inputs/scanned/C05-INS.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C05-INS_p01.png"
+    ],
+    "editable": "editable/C05-INS.html"
+  },
+  {
+    "id": "C05-VND",
+    "case_id": "C05",
+    "title": "매입처 검토 회신",
+    "clean": "inputs/clean/C05-VND.pdf",
+    "scan": "inputs/scanned/C05-VND.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C05-VND_p01.png"
+    ],
+    "editable": "editable/C05-VND.html"
+  },
+  {
+    "id": "C05-REQ",
+    "case_id": "C05",
+    "title": "고객 클레임 접수 메일",
+    "clean": "inputs/clean/C05-REQ.pdf",
+    "scan": "inputs/scanned/C05-REQ.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C05-REQ_p01.png"
+    ],
+    "editable": "editable/C05-REQ.html"
+  },
+  {
+    "id": "C06-INV-01",
+    "case_id": "C06",
+    "title": "거래명세서",
+    "clean": "inputs/clean/C06-INV-01.pdf",
+    "scan": "inputs/scanned/C06-INV-01.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C06-INV-01_p01.png"
+    ],
+    "editable": "editable/C06-INV-01.html"
+  },
+  {
+    "id": "C06-LBL",
+    "case_id": "C06",
+    "title": "수령 제품 라벨 기록",
+    "clean": "inputs/clean/C06-LBL.pdf",
+    "scan": "inputs/scanned/C06-LBL.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C06-LBL_p01.png"
+    ],
+    "editable": "editable/C06-LBL.html"
+  },
+  {
+    "id": "C06-REQ",
+    "case_id": "C06",
+    "title": "고객 클레임 접수 메일",
+    "clean": "inputs/clean/C06-REQ.pdf",
+    "scan": "inputs/scanned/C06-REQ.pdf",
+    "pages": 1,
+    "images": [
+      "inputs/scanned/C06-REQ_p01.png"
+    ],
+    "editable": "editable/C06-REQ.html"
+  }
+]
