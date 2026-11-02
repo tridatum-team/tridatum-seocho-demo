@@ -1,6 +1,14 @@
-# Seocho 업무 검토 AI 데모 v0.8
+# tridatum-seocho-demo — 서초 업무검토AI 공개 데모
 
 공개 업무정보를 참고해 만든 **합성 반품·클레임 문서**로 OCR, 거래·규정 대조, 근거 확인, 로컬 LLM 회신 초안을 시연합니다. 실제 HL홀딩스 내부자료·거래·서식·규정·승인 결과가 아닙니다.
+
+## 저장소 구분
+
+- 이 저장소: **외부 공유용 공개 데모**. 실행 코드와 공개 가능한 합성 사례를 제공합니다.
+- 내부 개발본: [`tridatum-seocho`](https://github.com/tridatum-team/tridatum-seocho) (비공개). 문서 작성 원본·평가 자료·운영 안내를 포함하며 내부 공동개발은 그 저장소에서 진행합니다.
+- 두 저장소는 별개 제품이 아닙니다. 공개본 갱신 시 공유할 파일을 검토하며, 내부 개발본 전체를 이 저장소로 자동 동기화하지 않습니다.
+- 이전 이름은 `seocho-demo`입니다. 새 clone 주소는 `https://github.com/tridatum-team/tridatum-seocho-demo.git`입니다.
+
 
 ## 구성
 
